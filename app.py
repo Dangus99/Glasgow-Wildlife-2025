@@ -83,6 +83,7 @@ data = add_remove_buttons(data) # Add a column for remove buttons
 
 # Initialize Dash app with Bootstrap styling
 app = Dash(__name__, external_stylesheets=[dbc.themes.FLATLY]) # This creates the Dash app and applies the Flatly theme from Bootstrap
+server = app.server
 load_figure_template("FLATLY") # You can see the different themes here: https://www.dash-bootstrap-components.com/docs/themes/explorer/
 
 # Define app layout: for more information see: https://dash.plotly.com/dash-core-components/layout and https://www.dash-bootstrap-components.com/docs/components/
@@ -172,3 +173,6 @@ def delete_row(active_cell, table_data):
         
         return add_remove_buttons(df).to_dict('records') # Return the updated data with remove buttons added back
     return no_update
+
+if __name__ == '__main__:
+    app.run(debug=True)
