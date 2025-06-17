@@ -1,13 +1,13 @@
 # Rat Racer App
 - All of the code is teams and [github](https://github.com/Dangus99/Glasgow-Wildlife-2025) and to summaries:
-	- The code is written in python using a library called [dash]([Dash Documentation & User Guide | Plotly](https://dash.plotly.com/)).
+	- The code is written in python using a library called [dash](https://dash.plotly.com/)).
 	- You can run the app as a script using the `app.py` or you can run as jupyter notebook using the `rat-racer.ipynb`
 	- `requirements.txt` contains all the libraries to run the code.
 	- `rankings.csv` contains the data that the code converts to a table. The data is structured with 3 columns:
 		- Rank: which position is racer in the leader board.
 		- Racer: name of the racer.
-		- Time: the time it took to racer to complete the maze. Formatted m:ss.ms example: 1m 09s 7 ms. I used this app to time to racer: [Webscorer | Race registration, race timing, race results](https://www.webscorer.com/)
+		- Time: the time it took to racer to complete the maze. Formatted m:ss.ms example: 1m 09s 7 ms. I used this app to time to racer: [Webscorer](https://www.webscorer.com/)
 - The website is hosted on [pythonanywhere.com](https://www.pythonanywhere.com/)
-	- So you need to create an account so you'll need to make an email: [Proton Mail: Get a free email account with privacy and encryption | Proton](https://proton.me/mail)
+	- So you need to create an account so you'll need to make an email: [Proton Mail](https://proton.me/mail)
 	- Create something like: Glasgow-Wildlife2025@proton.me
 	- Then, you'll need to create a pythonanywhere.com account.
